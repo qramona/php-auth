@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Open Sans';
+    background: aliceblue;
+}
+
+a{
+    color: gray;
+    text-decoration: none;
+}
+p{
+    margin: 10px 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+input{
+    outline: none;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-bottom: 1.5px solid gray;
+
+}
+button{
+    padding: 10px;
+    background: aliceblue;
+    border: gray solid 1px;
+    cursor: pointer;
+    border-radius:4px;
+}
+.msg{
+    border: solid 1px cornflowerblue;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logout{
+    color: cornflowerblue;
+    font-weight: bold;
+    text-align: center;
+}
+
+
